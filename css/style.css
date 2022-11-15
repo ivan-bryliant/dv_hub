@@ -1,0 +1,31 @@
+a{
+text-decoration:none ;	
+}
+
+[class *=__container]{
+max-width: 1350px;
+padding: 0 15px;
+margin: 0 auto;
+}
+
+.header{
+background-color:grey;
+box-shadow: 10px 5px 5px red;
+
+}
+
+.header__container{
+display:flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.menu__list{
+display: flex;
+gap: 40px;
+list-style: none;
+}
+
+.menu__link{
+color: #e8d40d;
+}
