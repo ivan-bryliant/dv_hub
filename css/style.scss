@@ -31,3 +31,77 @@
 .third-section {
   background-color: rebeccapurple;
 }
+
+/*************foter*/
+.footer {
+  padding: 100px 0 116px 0;
+  // .footer__container
+  &__container {
+  }
+
+  // .footer__wrap
+  &__wrap {
+    display: flex;
+    gap: 16px;
+  }
+
+  // .footer__first-column
+  &__first-column {
+    width: 35.4%;
+
+  }
+
+  // .footer__logo
+  &__logo {
+    margin-bottom: 20px;
+  }
+
+  // .footer__contact-links
+  &__contact-links {
+    display: inline-flex;
+    gap: 10px;
+  }
+
+  // .footer__contact-link
+  &__contact-link {
+  }
+
+  // .footer__second-column
+  &__second-column {
+    width: 13.5%;
+  }
+
+  // .footer__third-column
+  &__third-column {
+    width: 34%;
+  }
+
+  // .footer__music-links
+  &__music-links {
+    display: flex;
+    gap: 17px;
+    justify-content: flex-start;
+
+  }
+
+  // .footer__music-link
+  &__music-link {
+  }
+}
+
+.footer-nav {
+  // .footer-nav__list
+  &__list {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 159%;
+  }
+
+  // .footer-nav__link
+  &__link {
+
+  }
+}

@@ -12,17 +12,50 @@
   font-size: 30px;
 }
 
-.header__logo{
-  font-size: 100px;
-color: yellow;
-}
-
 .second-section {
   background-color: brown;
 }
 
 .third-section {
   background-color: rebeccapurple;
+}
+
+/*************foter*/
+.footer {
+  padding: 100px 0 116px 0;
+}
+.footer__wrap {
+  display: flex;
+  gap: 16px;
+}
+.footer__first-column {
+  width: 35.4%;
+}
+.footer__logo {
+  margin-bottom: 20px;
+}
+.footer__contact-links {
+  display: inline-flex;
+  gap: 10px;
+}
+.footer__second-column {
+  width: 13.5%;
+}
+.footer__third-column {
+  width: 34%;
+}
+.footer__music-links {
+  display: flex;
+  gap: 17px;
+  justify-content: flex-start;
+}
+.footer-nav__list {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 159%;
 }
 
 /*# sourceMappingURL=style.css.map */
