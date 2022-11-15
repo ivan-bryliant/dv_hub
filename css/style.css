@@ -12,6 +12,11 @@
   font-size: 30px;
 }
 
+.header__logo{
+  font-size: 100px;
+color: yellow;
+}
+
 .second-section {
   background-color: brown;
 }
