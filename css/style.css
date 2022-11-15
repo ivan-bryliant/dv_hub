@@ -1,31 +1,23 @@
-a{
-text-decoration:none ;	
+.page__first-section {
+  background-color: red;
 }
 
-[class *=__container]{
-max-width: 1350px;
-padding: 0 15px;
-margin: 0 auto;
+.first-section__title {
+  font-size: 50px;
+  color: aliceblue;
+  margin-bottom: 20px;
+}
+.first-section__text {
+  color: white;
+  font-size: 30px;
 }
 
-.header{
-background-color:grey;
-box-shadow: 10px 5px 5px red;
-
+.second-section {
+  background-color: brown;
 }
 
-.header__container{
-display:flex;
-justify-content: space-around;
-align-items: center;
+.third-section {
+  background-color: rebeccapurple;
 }
 
-.menu__list{
-display: flex;
-gap: 40px;
-list-style: none;
-}
-
-.menu__link{
-color: #e8d40d;
-}
+/*# sourceMappingURL=style.css.map */
